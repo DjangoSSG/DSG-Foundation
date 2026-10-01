@@ -437,7 +437,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054644644}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 4648752db2771304daf66b37bf6cd8ff, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -517,7 +517,7 @@ Transform:
   m_GameObject: {fileID: 1054644644}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.4, y: 4.9, z: -11.6}
+  m_LocalPosition: {x: -6.4, y: 7.41, z: -11.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -571,6 +571,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8254244495741131038, guid: 0d0b1ddf702dcc14da3db4645ea99895, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 4648752db2771304daf66b37bf6cd8ff, type: 2}
     - target: {fileID: 8692020685926130766, guid: 0d0b1ddf702dcc14da3db4645ea99895, type: 3}
       propertyPath: m_Name
       value: Floor
