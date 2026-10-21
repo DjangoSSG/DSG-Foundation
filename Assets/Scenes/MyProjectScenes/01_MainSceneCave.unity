@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 175218214}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.841, y: -0.48, z: 0.19}
+  m_LocalPosition: {x: -6.8409996, y: -0.48, z: 0.19000006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -515,6 +515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 844174736}
   - component: {fileID: 844174735}
+  - component: {fileID: 844174737}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -568,6 +569,20 @@ Transform:
   - {fileID: 1963114770}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844174737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844174734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6d67ef07ba319468d9f9c798c02ec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Move
+  movepeed: 1
+  orientation: {fileID: 1938092346}
 --- !u!1 &899404100
 GameObject:
   m_ObjectHideFlags: 0
