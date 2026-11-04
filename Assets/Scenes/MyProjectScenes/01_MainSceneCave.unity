@@ -5315,7 +5315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d88e4039f7257694199bcd8479bf4866, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.026
+      value: 0.047
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d88e4039f7257694199bcd8479bf4866, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5366,7 +5366,7 @@ PrefabInstance:
       addedObject: {fileID: 1075260350}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d88e4039f7257694199bcd8479bf4866, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1075260354}
+      addedObject: {fileID: 1075260358}
   m_SourcePrefab: {fileID: 100100000, guid: d88e4039f7257694199bcd8479bf4866, type: 3}
 --- !u!1 &369006780 stripped
 GameObject:
@@ -5768,7 +5768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88e4039f7257694199bcd8479bf4866, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5777,6 +5777,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d88e4039f7257694199bcd8479bf4866, type: 3}
       insertIndex: -1
       addedObject: {fileID: 807382800}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d88e4039f7257694199bcd8479bf4866, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 807382804}
   m_SourcePrefab: {fileID: 100100000, guid: d88e4039f7257694199bcd8479bf4866, type: 3}
 --- !u!1 &807382795 stripped
 GameObject:
@@ -5805,6 +5808,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &807382804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807382795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10024f6ebc2ff474b8144a1d86020508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoKeyAnimation
+  doorScript: {fileID: 1634823471}
 --- !u!1001 &831696692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6146,7 +6162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   clickObjToDestroy: {fileID: 1075260346}
   keyCollected: 0
---- !u!65 &1075260354
+--- !u!65 &1075260358
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6165,7 +6181,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.010400443, y: 0.20996344, z: 0.072686784}
+  m_Size: {x: 0.1, y: 0.22, z: 0.12}
   m_Center: {x: 0.000000024477153, y: 0.10203861, z: 0.030252058}
 --- !u!1 &1078286708
 GameObject:
@@ -6503,7 +6519,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.26480627, y: 2.5892572, z: 0.40048206}
+  m_Size: {x: 1.32, y: 2.83, z: 0.44}
   m_Center: {x: 6.468378, y: -0.8843013, z: 0.344093}
 --- !u!114 &1634823471
 MonoBehaviour:
@@ -6517,8 +6533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ee9006417287a49adf44fd522dbfad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::unlockDoor
-  clickToEnable: {fileID: 1634823463}
+  clickToEnable: {fileID: 807382795}
   keyScript: {fileID: 1075260350}
+  keyEnabled: 0
 --- !u!4 &1706024632 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cab6306cb96f5df4aa709228b210a1c7, type: 3}
