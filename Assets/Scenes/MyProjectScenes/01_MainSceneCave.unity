@@ -5036,7 +5036,7 @@ Transform:
   m_GameObject: {fileID: 157247701}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.68307, y: -0, z: 2.585}
+  m_LocalPosition: {x: 3.503, y: -0, z: 2.585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6620,10 +6620,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.389
       objectReference: {fileID: 0}
+    - target: {fileID: -6438740957430845784, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fa6cac58d828e943b9f327a18e44030, type: 2}
     - target: {fileID: -5863585490950957107, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 5abd897451b8eb041936a11934399713, type: 2}
+    - target: {fileID: -5791820115719670520, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fa6cac58d828e943b9f327a18e44030, type: 2}
     - target: {fileID: -5665518319778211928, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -6644,6 +6652,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: aa72733aadc12374e802a6c903c3ce8f, type: 2}
+    - target: {fileID: -302736238102332845, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fa6cac58d828e943b9f327a18e44030, type: 2}
+    - target: {fileID: 604132443718779518, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fa6cac58d828e943b9f327a18e44030, type: 2}
     - target: {fileID: 919132149155446097, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
       propertyPath: m_Name
       value: Cave Block Out (1)
@@ -6652,10 +6668,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 28ac49ecbe5135642b497aec2a7a018e, type: 2}
+    - target: {fileID: 1223495858631678018, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fa6cac58d828e943b9f327a18e44030, type: 2}
     - target: {fileID: 4440797654759790938, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 28ac49ecbe5135642b497aec2a7a018e, type: 2}
+    - target: {fileID: 4721617021627070191, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fa6cac58d828e943b9f327a18e44030, type: 2}
     - target: {fileID: 4752888626103974999, guid: 36bab56d8a33deb4f9d78da7c2848a72, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
