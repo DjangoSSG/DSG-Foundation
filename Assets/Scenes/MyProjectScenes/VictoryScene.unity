@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 207790324}
   - component: {fileID: 207790323}
   - component: {fileID: 207790326}
+  - component: {fileID: 207790327}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -256,6 +257,18 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &207790327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207790322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b107ee02729918841921d821abd40fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::victExit
 --- !u!1 &314163545
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +418,7 @@ GameObject:
   - component: {fileID: 336910075}
   - component: {fileID: 336910074}
   - component: {fileID: 336910073}
+  - component: {fileID: 336910076}
   m_Layer: 5
   m_Name: Yes
   m_TagString: Untagged
@@ -476,8 +490,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+      - m_Target: {fileID: 207790327}
+        m_TargetAssemblyTypeName: victExit, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -526,6 +540,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336910071}
   m_CullTransparentMesh: 1
+--- !u!114 &336910076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336910071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b107ee02729918841921d821abd40fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::victExit
 --- !u!1 &423640641
 GameObject:
   m_ObjectHideFlags: 0
